@@ -1,0 +1,40 @@
+/* Ensure icons' container is displayed as flex */
+.nav-icons {
+  display: flex;
+  align-items: center;  /* To vertically align the items if they are of different heights */
+}
+
+/* Make sure each icon (or its anchor tag) has some margin for spacing, if needed */
+.nav-icons a {
+  margin-right: 10px;  /* Adjust as per your design preference */
+}
+
+.vehicle {
+  display: flex;
+  width: 225px;
+  text-align: left;
+  text-wrap: normal;
+  font-size: 12px;
+  font-weight: bolder;
+  font-stretch: condensed;
+}
+
+.store {
+  display: flex;
+  width: 175px;
+  text-align: left;
+  text-wrap: normal;
+  font-size: 12px;
+  font-weight: bolder;
+  font-stretch: condensed;
+}
+.open {
+  display: flex;
+  width: 175px;
+  text-align: left;
+  text-wrap: normal;
+  font-size: 12px;
+  font-weight: bolder;
+  font-stretch: condensed;
+  color: #1f660c;
+}
